@@ -1,0 +1,9 @@
+html, body {
+ background-color: #CCC;
+  font-family: "Helvetica Bold";
+    font-height: "16px";
+
+}
+canvas {
+  display: block;
+}
