@@ -1,6 +1,6 @@
 # Dimensions of the model
 
-The file [model.json](model.json) defines the model. We will find 4 layers:
+The file [model.json](model.json) defines the model. We see serveral layers like "Conv2D", "MaxPooling2D", "Conv2D", "MaxPooling2D", "Flatten" and "Dense". The respective 6 weight categories are:
 
 - Conv2D1.kernel [5, 5, 4, 8] - 5x5x4x8 = 800 values
 - Conv2D1.bias [8] - 8 values
