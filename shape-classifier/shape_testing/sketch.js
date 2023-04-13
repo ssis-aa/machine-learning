@@ -6,7 +6,7 @@ let triangles = [];
 let shapeClassifier;
 let rowIndex = 0;
 let previewHeight = 20;
-let NUM_OF_IMAGES = 100;
+let NUM_OF_IMAGES = 10;
 var loopCount = 0;
 var currentImageIndex = 0;
 var resultsMatrix = []
@@ -19,9 +19,9 @@ var inputImage;
 
 function preload(){
   for(let i = 0; i < NUM_OF_IMAGES; i++) {
-    triangles[i] = loadImage('testing_301/triangle-' + (i+1) + '.png');
-    squares[i]   = loadImage('testing_301/square-'   + (i+1) + '.png');
-    circles[i]   = loadImage('testing_301/circle-'   + (i+1) + '.png');
+    triangles[i] = loadImage('testing_30/triangle-' + (i+1) + '.png');
+    squares[i]   = loadImage('testing_30/square-'   + (i+1) + '.png');
+    circles[i]   = loadImage('testing_30/circle-'   + (i+1) + '.png');
     // index = nf(i, 4, 0);
     // triangles[i] = loadImage(`testing/triangle${index}.png`);
     // squares[i]   = loadImage('testing/square${index}.png');
